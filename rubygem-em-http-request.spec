@@ -2,7 +2,7 @@
 
 Name:       rubygem-%{oname}
 Version:    0.2.7
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    EventMachine based, async HTTP Request interface
 Group:      Development/Ruby
 License:    Ruby License
@@ -13,6 +13,7 @@ Requires:   rubygems
 Requires:   rubygem(eventmachine) >= 0.12.9
 Requires:   rubygem(addressable) >= 2.0.0
 BuildRequires: rubygems
+BuildRequires: ruby-devel
 Provides:   rubygem(%{oname}) = %{version}
 
 %description
