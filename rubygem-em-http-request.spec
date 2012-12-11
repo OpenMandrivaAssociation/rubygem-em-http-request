@@ -54,3 +54,10 @@ rm -rf %buildroot
 %{ruby_gemdir}/cache/%{oname}-%{version}.gem
 %{ruby_gemdir}/specifications/%{oname}-%{version}.gemspec
 %{ruby_sitearchdir}/*.so
+
+
+%changelog
+* Wed Nov 03 2010 Rémy Clouard <shikamaru@mandriva.org> 0.2.7-2mdv2011.0
++ Revision: 593042
+- import rubygem-em-http-request
+
