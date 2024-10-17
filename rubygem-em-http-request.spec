@@ -6,7 +6,7 @@ Release:    3
 Summary:    EventMachine based, async HTTP Request interface
 Group:      Development/Ruby
 License:    Ruby License
-URL:        http://github.com/igrigorik/em-http-request
+URL:        https://github.com/igrigorik/em-http-request
 Source0:    %{oname}-%{version}.gem
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 Requires:   rubygems
